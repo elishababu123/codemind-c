@@ -9,13 +9,17 @@ int main()
         sum=sum+rem;
         pro=pro*rem;
         n=n/10;
+        
     }
     if(sum==pro)
     {
         printf("Spy Number");
+        
     }
     else
     {
         printf("Not Spy Number");
+        
     }
+    
 }
