@@ -12,8 +12,11 @@ int main()
             r=a%10;
             s+=r;
             a=a/10;
+            
         }
         a=s;
+        
     }
     printf("%d",s);
+    
 }
