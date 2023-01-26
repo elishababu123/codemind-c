@@ -7,7 +7,7 @@ int main()
     {
         r=a%10;
         s=s*10+r;
-        a=a/10;
+        a/=10;
         
     }
     printf("%d",s);
